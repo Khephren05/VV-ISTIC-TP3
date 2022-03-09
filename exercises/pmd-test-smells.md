@@ -15,3 +15,9 @@ Include the improved test code in this file.
 
 ## Answer
 
+Nous avons testé category/java/bestpractices.xml/UseAssertEqualsInsteadOfAssertTrue sur les tests de la librarie :
+commons-math/commons-math-legacy/src/test/java/
+Le fichier de resultat de l'analyse est le suivant [Resultats](errorBis.html)
+Nous avons relevé une "bad smell" dans le fichier AkimaSplineInterpolatorTest.java à la ligne 249. En analysant le resultat 
+nous avons remarqué que cette erreur peut être qualifiée de faux positif. En effet l'assert equal utilisé est une méthode 
+"maison" du develloper pour prendre en compte l'approximation des floats comparés. 

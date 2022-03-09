@@ -26,3 +26,21 @@ Use the project in [tp3-balanced-strings](../code/tp3-balanced-strings) to compl
 
 ## Answer
 
+```java
+public static class Main {
+    public static boolean isBalanced(String str) {
+        // On parcours toute la string
+        for(int char=0; char<str.length(); char++){
+            if (str.charAt(char)=="{" && str.contains("}")){
+                
+            }
+        }
+        // Si on ne trouve ni {, ni (, ni [, alors elle est correct
+        // Dès qu'on trouve un truc ouvrant, on check s'il y en a un fermant
+        // Si y'a, on les vire
+        // Si y'a pas, c'est pas balancé
+        // Dès qu'on trouve un truc fermant, on dit que c'est pas balancé
+    }
+}
+```
+
