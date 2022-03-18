@@ -1,4 +1,4 @@
-package fr.istic.vv;
+
 
 public interface SSLSocket {
 

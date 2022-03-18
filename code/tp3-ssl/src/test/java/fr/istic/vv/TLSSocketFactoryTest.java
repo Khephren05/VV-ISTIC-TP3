@@ -1,5 +1,3 @@
-package fr.istic.vv;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -10,7 +8,6 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TLSSocketFactoryTest {
-
     /**
      * Test when the edge case when the both supported and enabled protocols are null.
      */
@@ -58,5 +55,4 @@ public class TLSSocketFactoryTest {
         Collections.shuffle(list);
         return list.toArray(new String[0]);
     }
-
 }

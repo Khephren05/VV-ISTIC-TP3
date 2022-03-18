@@ -2,6 +2,7 @@
 
 Answer the following questions:
 
+## Answers
 1. The following assertion fails `assertTrue(3 * .4 == 1.2)`. Explain why and describe how this type of check should be done.
 
 L'assert suivant : assertTrue(3 * .4 == 1.2) ne fonctionnera car les types des objets comparés sont des float. De ce fait
@@ -47,6 +48,4 @@ L'interet de la version Junit5 est qu'elle permet d'enchainer plusieurs assertTh
 après. De plus elle permet un meilleur contrôle de l'origine de la levée d'exception.
 
 
-
-## Answer
 
